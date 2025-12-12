@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Noordeen A — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Noordeen</div>
+      <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <!-- Replace this with real photo -->
+        <img id="hero-img" src="images/noordeen.jpg" alt="Noordeen portrait" />
+      </div>
+
+      <div class="hero-right">
+        <h1>Hi, It's <span class="accent">Noordeen A</span></h1>
+        <h2 class="tagline">I'm an Aspiring Full-Stack Developer</h2>
+
+        <p class="hero-desc">
+          I'm a passionate frontend developer with growing full-stack skills.
+          Experienced in UI/UX tools like Figma, React.js, Chart.js, and API-based
+          applications. I enjoy developing dashboards, chatbots, and clean,
+          responsive websites. Always learning — interested in backend, DevOps,
+          and modern design.
+        </p>
+
+        <div class="socials">
+          <a href="#" aria-label="GitHub">GH</a>
+          <a href="#" aria-label="LinkedIn">IN</a>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn-outline" href="#contact">Hire me</a>
+          <a class="btn-solid" href="Noordeen_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Frontend Development</h3>
+          <p>Building responsive UI using HTML, CSS, JavaScript, and React.js.</p>
+        </article>
+
+        <article class="card">
+          <h3>Dashboard & Data Visualisation</h3>
+          <p>Creating interactive dashboards using Chart.js and dynamic APIs.</p>
+        </article>
+
+        <article class="card">
+          <h3>UI/UX Prototyping</h3>
+          <p>Designing clean and user-friendly interfaces using Figma.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React.js</div>
+        <div class="skill">Chart.js</div>
+        <div class="skill">Figma</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Python</div>
+        <div class="skill">C / C++</div>
+        <div class="skill">Node.js</div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="edu-card">
+        <h3>B.E. Computer Science & Engineering</h3>
+        <p>SRM Easwari Engineering College</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+
+        <article class="card">
+          <h3>Chatbot (AI API Based)</h3>
+          <p>
+            A chatbot integrating mental wellness, physical fitness, and diagnostic
+            assistance. Learnt API integration, JSON handling, interaction flows,
+            and authentication keys.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Weather App</h3>
+          <p>
+            Weather forecasting application using OpenWeather API. Displays real-time
+            temperature, conditions, and location-based results.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Login Page UI</h3>
+          <p>
+            Clean and responsive login interface demonstrating UI/UX and JavaScript
+            validation techniques.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="exp-card">
+        <h3>Chatbot Using API</h3>
+        <p>
+          Integrated AI via API, handled JSON responses, built conversational logic,
+          managed API keys, optimized performance & responsiveness, and improved debugging
+          skills.
+        </p>
+
+        <h3>Activity Dashboard (Chart.js)</h3>
+        <p>
+          Built dynamic dashboard using Chart.js. Worked with real-time data,
+          customized charts, and improved UI responsiveness across devices.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p><strong>Email:</strong> <a href="mailto:abdulrahmanr861@gmail.com">abdulrahmanr861@gmail.com</a></p>
+          <p><strong>Phone:</strong> 7339477946</p>
+          <p><strong>Location:</strong> Mani Nagar, Poonamallee</p>
+        </div>
+
+        <form class="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" placeholder="Your name" required>
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" placeholder="you@email.com" required>
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea rows="5" placeholder="Write a message..." required></textarea>
+          </label>
+
+          <button type="submit" class="btn-solid">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Noordeen A — Aspiring Full-Stack Developer</p>
+  </footer>
+</body>
+</html>
