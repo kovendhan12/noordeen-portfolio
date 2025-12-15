@@ -27,11 +27,10 @@
   </nav>
 
   <main>
-    <!-- HERO SECTION -->
+    <!-- HERO -->
     <section id="home" class="hero">
       <div class="hero-left">
-        <!-- Upload file EXACTLY as: images/noordeen.jpg -->
-        <img id="hero-img" src="images/noordeen.jpg" alt="Noordeen Photo" />
+        <img id="hero-img" src="images/noordeen.jpg" alt="Noordeen Photo">
       </div>
 
       <div class="hero-right">
@@ -39,15 +38,14 @@
         <h2 class="tagline">I'm an Aspiring Full-Stack Developer</h2>
 
         <p class="hero-desc">
-          I'm a frontend developer with growing full-stack skills. Experienced in React.js, Chart.js,
-          UI/UX design, dashboards, API-based applications, and clean responsive interfaces.
-          Interested in backend development, DevOps, and modern interface design.
+          Frontend developer with growing full-stack skills. Experienced in React.js,
+          Chart.js, UI/UX design, dashboards, and API-based applications.
         </p>
 
+        <!-- SOCIAL LINKS (WORKING) -->
         <div class="socials">
-          <!-- Replace with real links when ready -->
-          <a href="https://github.com/" target="_blank" aria-label="GitHub">GH</a>
-          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">IN</a>
+          <a class="external" href="https://github.com/Shadow393659" target="_blank">GH</a>
+          <a class="external" href="https://www.linkedin.com/in/noordeen-a-647749328" target="_blank">IN</a>
         </div>
 
         <div class="cta-row">
@@ -61,22 +59,18 @@
     <section id="services" class="section">
       <h2>Services</h2>
       <div class="cards">
-
-        <article class="card">
+        <div class="card">
           <h3>Frontend Development</h3>
-          <p>Building responsive UI using HTML, CSS, JavaScript, and React.js.</p>
-        </article>
-
-        <article class="card">
-          <h3>Dashboard & Data Visualization</h3>
-          <p>Creating interactive dashboards using Chart.js and dynamic APIs.</p>
-        </article>
-
-        <article class="card">
-          <h3>UI/UX Prototyping</h3>
-          <p>Designing clean and user-friendly interfaces using Figma.</p>
-        </article>
-
+          <p>HTML, CSS, JavaScript, React.js</p>
+        </div>
+        <div class="card">
+          <h3>Dashboard Development</h3>
+          <p>Chart.js & API-driven dashboards</p>
+        </div>
+        <div class="card">
+          <h3>UI/UX Design</h3>
+          <p>Wireframes & design using Figma</p>
+        </div>
       </div>
     </section>
 
@@ -84,17 +78,17 @@
     <section id="skills" class="section">
       <h2>Skills</h2>
       <div class="skill-grid">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
-        <div class="skill">React.js</div>
-        <div class="skill">Chart.js</div>
-        <div class="skill">Figma</div>
-        <div class="skill">MySQL</div>
-        <div class="skill">MongoDB</div>
-        <div class="skill">Python</div>
-        <div class="skill">C / C++</div>
-        <div class="skill">Node.js</div>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React.js</span>
+        <span class="skill">Chart.js</span>
+        <span class="skill">Figma</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">MongoDB</span>
+        <span class="skill">Python</span>
+        <span class="skill">C / C++</span>
+        <span class="skill">Node.js</span>
       </div>
     </section>
 
@@ -102,7 +96,7 @@
     <section id="education" class="section">
       <h2>Education</h2>
       <div class="edu-card">
-        <h3>B.E. Computer Science & Engineering</h3>
+        <h3>B.E Computer Science & Engineering</h3>
         <p>SRM Easwari Engineering College</p>
       </div>
     </section>
@@ -110,83 +104,33 @@
     <!-- PROJECTS -->
     <section id="projects" class="section">
       <h2>Projects</h2>
-
       <div class="cards">
-
-        <article class="card">
-          <h3>Chatbot (AI API Integrated)</h3>
-          <p>
-            Chatbot for wellness & diagnostics. Learned API integration, JSON parsing,
-            error handling, and conversational flow designs.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Weather App (OpenWeather API)</h3>
-          <p>Displays real-time weather, temperature, and conditions using OpenWeather API.</p>
-        </article>
-
-        <article class="card">
-          <h3>Login Page UI</h3>
-          <p>Clean login interface focusing on UI/UX and form validation using JS.</p>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-      <h2>Experience</h2>
-      <div class="exp-card">
-        <h3>Chatbot Using API</h3>
-        <p>
-          Integrated AI APIs, handled JSON responses, developed conversational logic,
-          optimized performance, debugging, and improved user interaction experience.
-        </p>
-
-        <h3>Activity Dashboard (Chart.js)</h3>
-        <p>
-          Built a fully interactive dashboard using Chart.js, with dynamic data,
-          custom styling, responsive design, and optimized data visualization workflow.
-        </p>
+        <div class="card">
+          <h3>Chatbot (API)</h3>
+          <p>AI-based chatbot using external APIs</p>
+        </div>
+        <div class="card">
+          <h3>Weather App</h3>
+          <p>OpenWeather API based web app</p>
+        </div>
+        <div class="card">
+          <h3>Login UI</h3>
+          <p>Clean UI with validation</p>
+        </div>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section contact-section">
       <h2>Contact</h2>
-
-      <div class="contact-grid">
-        <div class="contact-left">
-          <p><strong>Email:</strong> <a href="mailto:abdulrahmanr861@gmail.com">abdulrahmanr861@gmail.com</a></p>
-          <p><strong>Phone:</strong> 7339477946</p>
-          <p><strong>Location:</strong> Mani Nagar, Poonamallee</p>
-        </div>
-
-        <form class="contact-form">
-          <label>
-            <span>Name</span>
-            <input type="text" required>
-          </label>
-
-          <label>
-            <span>Email</span>
-            <input type="email" required>
-          </label>
-
-          <label>
-            <span>Message</span>
-            <textarea rows="5" required></textarea>
-          </label>
-
-          <button type="submit" class="btn-solid">Send</button>
-        </form>
-      </div>
+      <p>Email: abdulrahmanr861@gmail.com</p>
+      <p>Phone: 7339477946</p>
+      <p>Location: Poonamallee</p>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2025 Noordeen A — Aspiring Full-Stack Developer</p>
+    <p>© 2025 Noordeen A</p>
   </footer>
 </body>
 </html>
