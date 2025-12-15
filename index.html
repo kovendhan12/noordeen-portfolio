@@ -2,105 +2,161 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Noordeen A — Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
 
 <body>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Noordeen</div>
+      <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<nav class="nav">
-  <div class="nav-inner">
-    <div class="brand">Noordeen</div>
-    <button class="nav-toggle">☰</button>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</nav>
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-left">
+        <img id="hero-img" src="images/noordeen.jpg" alt="Noordeen Photo">
+      </div>
 
-<main>
+      <div class="hero-right">
+        <h1>Hi, It's <span class="accent">Noordeen A</span></h1>
+        <h2 class="tagline">I'm an Aspiring Full-Stack Developer</h2>
 
-<section id="home" class="hero">
-  <div class="hero-left">
-    <img src="images/noordeen.jpg" alt="Noordeen">
-  </div>
+        <p class="hero-desc">
+          Frontend developer with growing full-stack skills. Experienced in React.js,
+          Chart.js, UI/UX design, dashboards, and API-based applications.
+        </p>
 
-  <div class="hero-right">
-    <h1>Hi, It's <span>Noordeen A</span></h1>
-    <h2>Aspiring Full-Stack Developer</h2>
+        <!-- SOCIAL LINKS (WORKING) -->
+        <div class="socials">
+          <a class="external" href="https://github.com/Shadow393659" target="_blank">GH</a>
+          <a class="external" href="https://www.linkedin.com/in/noordeen-a-647749328" target="_blank">IN</a>
+        </div>
 
-    <p>
-      Frontend developer with growing full-stack skills. Experienced in React.js,
-      dashboards, APIs and UI/UX design.
-    </p>
+        <div class="cta-row">
+          <a class="btn-outline" href="#contact">Hire me</a>
+          <a class="btn-solid" href="Noordeen_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
 
-    <div class="socials">
-      <a href="https://github.com/Shadow393659" target="_blank">GH</a>
-      <a href="https://www.linkedin.com/in/noordeen-a-647749328" target="_blank">IN</a>
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <h2>Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, React.js</p>
+        </div>
+        <div class="card">
+          <h3>Dashboard Development</h3>
+          <p>Chart.js & API-driven dashboards</p>
+        </div>
+        <div class="card">
+          <h3>UI/UX Design</h3>
+          <p>Wireframes & design using Figma</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React.js</span>
+        <span class="skill">Chart.js</span>
+        <span class="skill">Figma</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">MongoDB</span>
+        <span class="skill">Python</span>
+        <span class="skill">C / C++</span>
+        <span class="skill">Node.js</span>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="edu-card">
+        <h3>B.E Computer Science & Engineering</h3>
+        <p>SRM Easwari Engineering College</p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Chatbot (API)</h3>
+          <p>AI-based chatbot using external APIs</p>
+        </div>
+        <div class="card">
+          <h3>Weather App</h3>
+          <p>OpenWeather API based web app</p>
+        </div>
+        <div class="card">
+          <h3>Login UI</h3>
+          <p>Clean UI with validation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+  <!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+
+  <div class="contact-grid">
+    <div class="contact-left">
+      <p><strong>Email:</strong> <a href="mailto:abdulrahmanr861@gmail.com">abdulrahmanr861@gmail.com</a></p>
+      <p><strong>Phone:</strong> 7339477946</p>
+      <p><strong>Location:</strong> Poonamallee</p>
     </div>
 
-    <div class="buttons">
-      <a href="#contact" class="btn-outline">Hire Me</a>
-      <a href="Noordeen_Resume.pdf" download class="btn-solid">Download Resume</a>
-    </div>
+    <form class="contact-form" action="mailto:abdulrahmanr861@gmail.com" method="post" enctype="text/plain">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" required>
+      </label>
+
+      <label>
+        <span>Email</span>
+        <input type="email" name="email" required>
+      </label>
+
+      <label>
+        <span>Message</span>
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+
+      <button type="submit" class="btn-solid">Send</button>
+    </form>
   </div>
 </section>
 
-<section id="services">
-  <h2>Services</h2>
-  <div class="cards">
-    <div class="card">Frontend Development</div>
-    <div class="card">Dashboard Development</div>
-    <div class="card">UI/UX Design</div>
-  </div>
-</section>
+  </main>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>HTML</span><span>CSS</span><span>JavaScript</span>
-    <span>React.js</span><span>Chart.js</span><span>Figma</span>
-  </div>
-</section>
-
-<section id="education">
-  <h2>Education</h2>
-  <p>B.E CSE – SRM Easwari Engineering College</p>
-</section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="cards">
-    <div class="card">Chatbot (API)</div>
-    <div class="card">Weather App</div>
-    <div class="card">Login UI</div>
-  </div>
-</section>
-
-<!-- CONTACT FORM -->
-<section id="contact">
-  <h2>Contact Me</h2>
-
-  <form action="mailto:abdulrahmanr861@gmail.com" method="post" enctype="text/plain">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
-</section>
-
-</main>
-
-<footer>
-  © 2025 Noordeen A
-</footer>
-
+  <footer class="footer">
+    <p>© 2025 Noordeen A</p>
+  </footer>
 </body>
 </html>
